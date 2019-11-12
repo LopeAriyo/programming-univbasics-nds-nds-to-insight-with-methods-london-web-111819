@@ -18,7 +18,7 @@ def directors_totals(nds)
     director_index += 1
     binding.pry
   end
-  
+
   #result
 
 end
