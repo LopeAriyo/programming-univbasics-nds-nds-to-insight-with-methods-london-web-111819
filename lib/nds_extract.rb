@@ -17,7 +17,7 @@ end
 # using director_data as input
 def gross_for_director(director)
 
-#search the information of the director give. 
+#search the information of the director give.
 #then for each movie find the :worldwide_grosses and add that to the current total gross
 
   total_gross = 0
@@ -26,7 +26,7 @@ def gross_for_director(director)
     if key == :movies
       value.each do |movie|
 
-      
+
        total_gross += movie[:worldwide_gross]
 
         #
