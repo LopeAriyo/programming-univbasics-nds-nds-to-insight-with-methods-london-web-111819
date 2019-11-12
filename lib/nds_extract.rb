@@ -22,7 +22,7 @@ list_of_directors_totals = {}
       end
     end
   end
-list_of_directors_totals
+return list_of_directors_totals
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
