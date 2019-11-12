@@ -7,7 +7,7 @@ require 'pry'
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 
-def directors_totals()
+def directors_totals(nds)
 
 
 
