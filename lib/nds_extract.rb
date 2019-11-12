@@ -22,7 +22,7 @@ list_of_directors_totals = {}
       end
     end
   end
-  
+
   return list_of_directors_totals
   
 end
