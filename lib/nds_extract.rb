@@ -9,7 +9,7 @@ require 'pry'
 
 def directors_totals(nds)
 
-#binding.pry
+binding.pry
 
 
 end
