@@ -9,22 +9,17 @@ require 'pry'
 
 def directors_totals(database)
 
-list_of_directors_totals = {}
+  list_of_directors_totals = {}
+  director_number = 0 
 
-  database.each do |director|
-    director.each do |key, value|
-      if key == :name
-         #if value == gross_for_director(nds)[:name]
-
-          list_of_directors_totals[value] = gross_for_director(database)
-
-          #binding.pry
-        #end
-
-      end
-    end
+  until director_number == database.size do
+    director = database[director_number]
+    list_of_directors_totals[director[:name]] = gross_for_director(director)
+    director_number += 1
   end
 
+
+  
   return list_of_directors_totals
 
 end
