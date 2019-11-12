@@ -23,11 +23,11 @@ gross = 0
 
   directors.each do |key, value|
     if key == :movies
-      key.each do |element|
-        if key_tw
+      #key.each do |element|
+        
 
 
-      end
+      #end
 
       #
       binding.pry
