@@ -18,9 +18,11 @@ end
 def gross_for_director(director)
 
   directors.each do
+
+    #binding.pry
   end
 
-  #binding.pry
+  
 
 
 
