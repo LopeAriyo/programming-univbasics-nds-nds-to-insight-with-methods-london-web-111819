@@ -9,7 +9,7 @@ require 'pry'
 
 def directors_totals(nds)
 
-  
+
 
 end
 
@@ -17,6 +17,6 @@ end
 # using director_data as input
 def gross_for_director(director_data)
 
-  
+
 
 end
