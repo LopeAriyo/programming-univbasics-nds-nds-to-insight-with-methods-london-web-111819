@@ -1,6 +1,5 @@
 require 'directors_database'
 require 'pp'
-require 'pry'
 
 # Write a method that, given an NDS creates a new Hash
 # The return value should be like:
@@ -27,21 +26,14 @@ end
 # using director_data as input
 def gross_for_director(director_data)
 
- # directors_totals(directors_database)[director_data[:name]]
+  gross = 0
+  i = 0
 
-
-
-   #binding.pry
-
-
-   total = 0
-  index = 0
-
-  while index < d[:movies].length do
-    total += d[:movies][index][:worldwide_gross]
-    index += 1
+  while i < director_data[:movies].length do
+    gross += director_data[:movies][index][:worldwide_gross]
+    i += 1
   end
 
-  total
+  gross
 
 end
