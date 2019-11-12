@@ -13,10 +13,10 @@ def directors_totals(nds)
   director_index = 0
 
   until director_index == nds.size do
-    #director = nds[director_index]
+    director = nds[director_index]
     #result[director[:name]] = gross_for_director(director)
     director_index += 1
-    binding.pry
+    #binding.pry
   end
 
   #result
