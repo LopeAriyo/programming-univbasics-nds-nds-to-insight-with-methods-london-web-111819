@@ -18,7 +18,7 @@ list_of_directors_totals = {}
 
           list_of_directors_totals[value] = gross_for_director(nds)
 
-          #binding.pry
+          binding.pry
         end
 
       end
