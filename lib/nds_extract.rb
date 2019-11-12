@@ -29,14 +29,14 @@ end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
-def gross_for_director(director)
+def gross_for_director(director_database)
 
 #search the information of the director give.
 #then for each movie find the :worldwide_grosses and add that to the current total gross
 
   total_gross = 0
 
-  director.each do |key, value|
+  director_database.each do |key, value|
     if key == :movies
       value.each do |movie|
 
