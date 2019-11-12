@@ -10,13 +10,13 @@ require 'pry'
 def directors_totals(nds)
 
   result = {}
-  director_index = 0
+  director_number= 0
 
-  until director_index == nds.size do
-    director = nds[director_index]
+  until director_number == nds.size do
+    director = nds[director_number]
     result[director[:name]] = gross_for_director(director)
-    director_index += 1
-    #binding.pry
+    director_number += 1
+  
   end
 
   result
@@ -28,5 +28,20 @@ end
 def gross_for_director(director_data)
 
  # directors_totals(directors_database)[director_data[:name]]
+
+
+ 
+   #binding.pry
+
+
+   total = 0
+  index = 0
+
+  while index < d[:movies].length do
+    total += d[:movies][index][:worldwide_gross]
+    index += 1
+  end
+
+  total
 
 end
