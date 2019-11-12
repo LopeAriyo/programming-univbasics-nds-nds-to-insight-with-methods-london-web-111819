@@ -15,8 +15,7 @@ list_of_directors_totals = {}
     director.each do |key, value|
       if key == :name
 
-
-        #list_of_directors_totals[value] = gross_for_director(value)
+          list_of_directors_totals[value] = gross_for_director(value)
 
           binding.pry
 
