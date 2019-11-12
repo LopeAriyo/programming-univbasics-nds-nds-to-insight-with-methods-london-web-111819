@@ -44,7 +44,7 @@ def gross_for_director(director_database)
 
        total_gross += movie[:worldwide_gross]
 
-        binding.pry
+        #binding.pry
 
       end
     end
