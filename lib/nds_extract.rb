@@ -14,7 +14,7 @@ list_of_directors_totals = {}
   nds.each do |director|
     director.each do |key, value|
       if key == :name
-        value.each do
+        value.each do |guess|
           
         #list_of_directors_totals[name] = gross_for_director(value)
 
