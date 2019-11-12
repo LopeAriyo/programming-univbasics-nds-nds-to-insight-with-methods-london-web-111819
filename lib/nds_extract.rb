@@ -9,6 +9,8 @@ require 'pry'
 
 def directors_totals(nds)
 
+list_of_directors_totals = {}
+
 binding.pry
 
 
