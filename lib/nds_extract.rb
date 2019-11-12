@@ -24,7 +24,7 @@ list_of_directors_totals = {}
   end
 
   return list_of_directors_totals
-  
+
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
