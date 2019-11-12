@@ -22,20 +22,14 @@ def gross_for_director(director)
 
   director.each do |key, value|
     if key == :movies
-      #key.each do |element|
+      key.each do |element|
 
+        #
+        binding.pry
 
-
-      #end
-
-      #
-      binding.pry
-
+        
+      end
     end
   end
-
-
-
-
 
 end
