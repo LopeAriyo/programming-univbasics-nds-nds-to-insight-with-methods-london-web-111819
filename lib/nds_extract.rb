@@ -40,10 +40,10 @@ def gross_for_director(database)
   i = 0
 
   until i == database[:movies].length do
-       total_gross += database[:movies][i][:worldwide_gross]
-       i += 1
-     end
+    total_gross += database[:movies][i][:worldwide_gross]
+    i += 1
+  end
 
-total_gross
+  total_gross
 
 end
