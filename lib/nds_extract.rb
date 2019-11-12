@@ -37,18 +37,12 @@ def gross_for_director(database)
 #then for each movie find the :worldwide_grosses and add that to the current total gross
 
   total_gross = 0
+  i = 0
 
-  database.each do |key, value|
-    if key == :movies
-      value.each do |movie|
-
-       total_gross += movie[:worldwide_gross]
-
-        #binding.pry
-
-      end
-    end
-  end
+  until i == dtabase[:movies].length do 
+       total_gross += database[:movies][i][:worldwide_gross]
+       i += 1
+     end
 
 total_gross
 
