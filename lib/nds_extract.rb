@@ -39,7 +39,7 @@ def gross_for_director(database)
   total_gross = 0
   i = 0
 
-  until i == dtabase[:movies].length do
+  until i == database[:movies].length do
        total_gross += database[:movies][i][:worldwide_gross]
        i += 1
      end
