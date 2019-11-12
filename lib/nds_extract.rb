@@ -18,7 +18,7 @@ end
 def gross_for_director(director)
 
 
-gross = 0 
+gross = 0
 
 
   directors.each do |key, value|
@@ -26,7 +26,7 @@ gross = 0
       key.each do |element|
         if key_tw
 
-        
+
       end
 
       #
