@@ -18,7 +18,7 @@ end
 def gross_for_director(director)
 
   directors.each do |key, value|
-    if key == :movies 
+    if key == :movies
 
       binding.pry
 
