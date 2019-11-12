@@ -15,7 +15,7 @@ list_of_directors_totals = {}
     director.each do |key, value|
       if key == :name
         value.each do |guess|
-          
+
         #list_of_directors_totals[name] = gross_for_director(value)
 
           binding.pry
