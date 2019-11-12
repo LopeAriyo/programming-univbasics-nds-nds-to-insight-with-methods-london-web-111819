@@ -12,11 +12,18 @@ def directors_totals(nds)
 list_of_directors_totals = {}
 
   nds.each do |director|
+    director.each do |key, value|
+      if key == :name 
+        value.each do
+          
+        #list_of_directors_totals[name] = gross_for_director(value)
 
-    binding.pry
+          binding.pry
+        end
+      end
+    end
   end
-
-
+list_of_directors_totals
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
