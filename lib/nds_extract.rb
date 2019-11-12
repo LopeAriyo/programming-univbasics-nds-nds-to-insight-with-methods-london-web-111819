@@ -25,7 +25,7 @@ def gross_for_director(director)
       value.each do |movie|
 
       #then for each movie find the :worldwide_grosses and add that to the current total gross
-      
+       total_gross += movie[:worldwide_gross]
 
         #
         binding.pry
