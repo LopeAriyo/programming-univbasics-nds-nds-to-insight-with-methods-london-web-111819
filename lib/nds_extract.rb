@@ -29,8 +29,7 @@ def gross_for_director(director)
 
        total_gross += movie[:worldwide_gross]
 
-        #
-        binding.pry
+        #binding.pry
 
 
       end
