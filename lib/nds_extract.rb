@@ -22,7 +22,7 @@ def gross_for_director(director)
     #binding.pry
   end
 
-  
+
 
 
 
