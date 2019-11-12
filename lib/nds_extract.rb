@@ -17,9 +17,19 @@ end
 # using director_data as input
 def gross_for_director(director)
 
+
+gross = 0 
+
+
   directors.each do |key, value|
     if key == :movies
+      key.each do |element|
+        if key_tw
 
+        
+      end
+
+      #
       binding.pry
 
     end
