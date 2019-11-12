@@ -11,7 +11,7 @@ def directors_totals(nds)
 
 list_of_directors_totals = {}
 
-  nds.each do |director|  
+  nds.each do |director|
 
     binding.pry
   end
