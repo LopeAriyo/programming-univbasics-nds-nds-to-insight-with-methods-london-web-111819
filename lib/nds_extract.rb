@@ -10,7 +10,7 @@ require 'pry'
 def directors_totals(database)
 
   list_of_directors_totals = {}
-  director_number = 0 
+  director_number = 0
 
   until director_number == database.size do
     director = database[director_number]
@@ -19,7 +19,7 @@ def directors_totals(database)
   end
 
 
-  
+
   return list_of_directors_totals
 
 end
