@@ -18,8 +18,7 @@ end
 def gross_for_director(director)
 
 
- gross = 0
-
+  gross = 0
 
   director.each do |key, value|
     if key == :movies
