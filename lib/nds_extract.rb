@@ -13,15 +13,14 @@ list_of_directors_totals = {}
 
   nds.each do |director|
     director.each do |key, value|
+      if key == :name
+      
 
-      #if key == :name
-        #value.each do |guess|
+        list_of_directors_totals[value] = gross_for_director(value)
 
-        #list_of_directors_totals[name] = gross_for_director(value)
-
-          binding.pry
-        #end
-      #end
+          #binding.pry
+      
+      end
     end
   end
 list_of_directors_totals
