@@ -12,10 +12,10 @@ def directors_totals(nds)
 list_of_directors_totals = {}
 
   nds.each do |director|
-    director.each do |key, value|
+    director.each do |key, name|
       if key == :name
 
-          list_of_directors_totals[value] = gross_for_director(value)
+          list_of_directors_totals[name] = gross_for_director(name)
 
           #binding.pry
 
